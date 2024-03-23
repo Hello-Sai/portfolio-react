@@ -1,0 +1,52 @@
+[{
+    "id":1,
+    "name":"OTP Authentication Using SMS",
+    "image":"images/OTP.jpeg",
+    "description":"One Time Password is Generated and Verified in Real Time through SMS.: It will Valid for only 10 minutes.:I have used Twilio as the Third-party SMS provider.",
+    "link":"https://github.com/Hello-Sai/Authentcation"
+},
+{
+    "id":2,
+    "name":"Hospital Management Software",
+    "image":"images/Hospital.png",
+    "description":"A Web Portal for Patient and Doctors for Hospital Management. Doctors Can Hold their Patient Records. Patients can check their medicine, documents and contact doctor",
+    "link":"https://github.com/Hello-Sai/HospitalManagement"
+},
+
+{
+	"id":3,
+	"name":"Library Software using JWT Authentication",
+	"image":"images/library.jpeg",
+	"description":"Library Management System with JSON Web Token based Authentication.A User gets Access Token and Refresh Token when he signs in. Access Token Expires at every 50 minutes and new token generate using the Refresh token",
+	"link":"https://github.com/Hello-Sai/LibraryManagementSystem"
+},
+{
+	"id":4,
+	"name":"User Portal Application",
+	"image":"images/UserPortal.png",
+	"description":"Users can upload files and checkout whenever they want for their needs. If we need a copy, we can download easily by clicking download button. It is also use as a storage for backup purposes.",
+	"link":"https://github.com/Hello-Sai/UserPortal"
+},
+
+{
+	"id":5,
+	"name":"Chat Application",
+	"image":"images/ChatApplication.png",
+	"description":"Real Time online status of an account and broadcast quickly to the channel.Real time messaging service and stores messages built using Web Sockets and Channels",
+	"link":"https://github.com/Hello-Sai/ChatApplication"
+},
+
+{
+	"id":6,
+	"name":"Automation Deletion Tasks",
+	"image":"images/Automation.jpeg",
+	"description":"To Prevent Server from having Fake accounts with Fake emails.Sends a mail to the registered mail to verify his/her account.Retrieves and Deletes Users Who are not verified through email will loss their account after 2 days.Every day at 12:00 AM task reschedules and runs periodically using celery beat.",
+	"link":"https://github.com/Hello-Sai/AutomationTasks"
+},
+{
+	"id":6,
+	"name":"Razor Pay Payment",
+	"image":"images/razorpay.png",
+	"description":"Integrated Django Application with Razor pay Payment Gateway. Can easily attach to a Demo Website for testing payments.",
+	"link":"https://github.com/Hello-Sai/PaymentGateWay"
+}]
