@@ -10,7 +10,7 @@ export default function Resume() {
 
   )
   function downloadresume(){
-    // var resume = "https://www.pythonanywhere.com/user/dagudusai/files/home/dagudusai/documents/SaiKumarResumeU.pdf"
+    // var resume = "https://carrer-sai.s3.ap-southeast-2.amazonaws.com/documents/SaiKumarResume.pdf"
     // const headers = new Headers();
     // headers.append('Content-Type', 'application/pdf');
 

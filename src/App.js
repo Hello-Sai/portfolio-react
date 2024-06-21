@@ -1,27 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
+// import Languages from './components/Languages'
 import Projects from './components/Projects';
+// import Experience from './components/Experience';
 
 function App() {
   return (
     <div className='app' >
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
       <Header />
       <div className='container-fluid mx-auto'>
+        {/* <Experience /> */}
       <Projects />
       </div>
     </div>

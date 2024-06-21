@@ -1,0 +1,51 @@
+.project-container {
+  background: linear-gradient(100deg, grey, red);
+  padding: 40px;
+  border-radius: 15px;
+  overflow: hidden; /* Ensure content stays within the container */
+  position: relative; /* For proper positioning */
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.1s ease-out;
+  margin: 0 10px; /* Increase spacing between cards */
+}
+
+.project-card:hover {
+
+  transition-duration: 0.15s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-card .card-title,
+.project-card .card-text {
+  color: black;
+}
+
+.project-card .card-img-top {
+  max-height: 200px;
+}
+
+.project-card .card-body {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0 0 15px 15px;
+}
+
+.carousel-inner {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-item {
+  flex: 1 0 100%;
+  display: none;
+}
+
+.carousel-item.active {
+  display: flex;
+}

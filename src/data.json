@@ -1,52 +1,71 @@
-[{
+{"projects":[{
     "id":1,
-    "name":"OTP Authentication Using SMS",
-    "image":"images/OTP.jpeg",
-    "description":"One Time Password is Generated and Verified in Real Time through SMS.: It will Valid for only 10 minutes.:I have used Twilio as the Third-party SMS provider.",
-    "link":"https://github.com/Hello-Sai/Authentcation"
+    "name":"Live Events Website",
+    "image":"https://carrer-sai.s3.ap-southeast-2.amazonaws.com/documents/Costume_party.jpeg",
+    "description":" Enable users to mark events as favourites for quick access and personalized recommendations. Dive deep into our advanced search capabilities to pinpoint events based on location, date, category, and more, helping you find the perfect experience with ease.",
+    "repoLink":"https://github.com/Hello-Sai/Authentcation",
+	"siteLink":"https://hello-sai.github.io/EventsWebsite"
 },
 {
-    "id":2,
-    "name":"Hospital Management Software",
-    "image":"images/Hospital.png",
-    "description":"A Web Portal for Patient and Doctors for Hospital Management. Doctors Can Hold their Patient Records. Patients can check their medicine, documents and contact doctor",
-    "link":"https://github.com/Hello-Sai/HospitalManagement"
+	"id":5,
+	"name":"Real Time Chat Application",
+	"image":"https://carrer-sai.s3.ap-southeast-2.amazonaws.com/images/projects/ChatApplication.png",
+	"description":"Real Time online status of an account and broadcast quickly to the channel.Real time messaging service and stores messages built using Web Sockets and Channels.Includes audio alerts for new messages and notifications to keep users informed. Supports seamless simultaneous messaging system.",
+	"repoLink":"https://github.com/Hello-Sai/ChatApplication",
+	"siteLink":"https://chatapplication-uwqj.onrender.com"
 },
-
+{
+	"id":8,
+	"name":"Stock Monitor System",
+	"image":"https://carrer-sai.s3.ap-southeast-2.amazonaws.com/documents/image-5.png",
+	"description":"Built a high-performance stock monitoring system integrating Alpha Vantage for real-time stock data, including high, open, low, and close prices. The system allows users to add stocks to their watchlist, featuring an attractive user interface for intuitive interaction.",
+	"repoLink":"https://github.com/Hello-Sai/StockMonitor",
+	"siteLink":"https://hello-sai.github.io/StockMonitor"
+},
+{
+	"id":6,
+	"name":"Automation Deletion Tasks",
+	"image":"https://carrer-sai.s3.ap-southeast-2.amazonaws.com/images/projects/Automation.jpeg",
+	"description":"To Prevent Server from having Fake accounts with Fake emails.Sends a mail to the registered mail to verify his/her account.Retrieves and Deletes Users Who are not verified through email will loss their account after 2 days.Every day at 12:00 AM task reschedules and runs periodically using celery beat.",
+	"repoLink":"https://github.com/Hello-Sai/AutomationTasks"
+},
 {
 	"id":3,
 	"name":"Library Software using JWT Authentication",
-	"image":"images/library.jpeg",
+	"image":"https://carrer-sai.s3.ap-southeast-2.amazonaws.com/images/projects/library.jpeg",
 	"description":"Library Management System with JSON Web Token based Authentication.A User gets Access Token and Refresh Token when he signs in. Access Token Expires at every 50 minutes and new token generate using the Refresh token",
-	"link":"https://github.com/Hello-Sai/LibraryManagementSystem"
+	"repoLink":"https://github.com/Hello-Sai/LibraryManagementSystem"
 },
 {
 	"id":4,
 	"name":"User Portal Application",
-	"image":"images/UserPortal.png",
+	"image":"https://carrer-sai.s3.ap-southeast-2.amazonaws.com/images/projects/UserPortal.png",
 	"description":"Users can upload files and checkout whenever they want for their needs. If we need a copy, we can download easily by clicking download button. It is also use as a storage for backup purposes.",
-	"link":"https://github.com/Hello-Sai/UserPortal"
+	"repoLink":"https://github.com/Hello-Sai/UserPortal"
 },
 
-{
-	"id":5,
-	"name":"Chat Application",
-	"image":"images/ChatApplication.png",
-	"description":"Real Time online status of an account and broadcast quickly to the channel.Real time messaging service and stores messages built using Web Sockets and Channels",
-	"link":"https://github.com/Hello-Sai/ChatApplication"
-},
 
 {
-	"id":6,
-	"name":"Automation Deletion Tasks",
-	"image":"images/Automation.jpeg",
-	"description":"To Prevent Server from having Fake accounts with Fake emails.Sends a mail to the registered mail to verify his/her account.Retrieves and Deletes Users Who are not verified through email will loss their account after 2 days.Every day at 12:00 AM task reschedules and runs periodically using celery beat.",
-	"link":"https://github.com/Hello-Sai/AutomationTasks"
+	"id":2,
+	"name":"Hospital Management Software",
+	"image":"https://carrer-sai.s3.ap-southeast-2.amazonaws.com/images/projects/Hospital.png",
+	"description":"A Web Portal for Patient and Doctors for Hospital Management. Doctors Can Hold their Patient Records. Patients can check their medicine, documents and contact doctor",
+	"repoLink":"https://github.com/Hello-Sai/HospitalManagement"
 },
 {
-	"id":6,
+	"id":7,
 	"name":"Razor Pay Payment",
-	"image":"images/razorpay.png",
+	"image":"https://carrer-sai.s3.ap-southeast-2.amazonaws.com/images/projects/razorpay.png",
 	"description":"Integrated Django Application with Razor pay Payment Gateway. Can easily attach to a Demo Website for testing payments.",
-	"link":"https://github.com/Hello-Sai/PaymentGateWay"
-}]
+	"repoLink":"https://github.com/Hello-Sai/PaymentGateWay"
+}
+],
+	"experiences":[{
+		"id":"1",
+		"position":"Full Stack Developer",
+		"Designation":"is a security risk in older browsers:is a security risk in older browsers:is a security risk in older browsers:"
+		},{
+			"id":"2",
+			"position":"Django Backend Developer",
+			"Designation":"is a security risk in older browsers:is a security risk in older browsers:is a security risk in older browsers:"
+			}]}
